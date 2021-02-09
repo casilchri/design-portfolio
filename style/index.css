@@ -11,7 +11,6 @@ body{
     overflow-x: hidden;
 }	
 
-
  p{
   font-size: 30px;
   text-align: left;
@@ -43,14 +42,14 @@ h3{
 
 /*-----------------LOGO AND WEBSITE TITLE--------------------*/
 
-#logo {
+/* #logo {
   position: absolute;
   top: 2px;
   left: 80px;
   font-family: 'Nunito Sans', sans-serif;
   text-transform: uppercase;
   color:#4C7149;
-}
+} */
 
 #logo h1 {
     font-size: 30px;
@@ -349,12 +348,11 @@ background: #ffffff;
 .split-right {
    width: 60%;
 	float: right;
-	/* text-align: left; */ /* TO MAKE TEXT ALIGNED TO THE LEFT */
 }
 
 
 /*---------RATIINGS FOR WATER/LIGHT/DIFFICULTY-------------*/
-.rating{
+/* .rating{
 	background-color: #72A367;
 	color: white;
   text-align: left;
@@ -363,10 +361,10 @@ background: #ffffff;
  margin-bottom: 5vw;
  padding-left: 30px;
   padding-right: 30px;
-}
+} */
 
 /*-------------------RATING IMAGE SIZE---------------------*/
-.icon{
+/* .icon{
   width: 5%;
   float: right;
   padding-left: 3vw;
@@ -375,7 +373,7 @@ background: #ffffff;
 .img{
   width: 80%;
   padding-top: 5vh;
-   }
+   } */
 
 
 
@@ -418,5 +416,5 @@ h3{
 
 }
 /**************************************************/
-/* PLANT INDEX STYLESHEET END */
+/* INDEX STYLESHEET END */
 /**************************************************/
