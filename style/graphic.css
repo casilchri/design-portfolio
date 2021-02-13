@@ -108,7 +108,7 @@ p{
 /*-------------WHITE SECTION - TOOLS AND WATERING-------------------*/
 
 .white-block {
-    padding: 5vw;
+    padding: 6vw;
 	text-align: left;
 	color: #000000;
 }
@@ -129,7 +129,7 @@ p{
 /*---------DARK SECTION - GENERAL TIPS AND BEGINNER PLANTS----------*/
 
 .dark-block {
-    /* padding: 10vw; */
+    padding: 10vw;
     color: #ffffff;
 	padding: 3vw;
     text-align: left;

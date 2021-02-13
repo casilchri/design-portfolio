@@ -90,10 +90,12 @@ p{
 
 .header-indexD{
   font-size: 4vw;
-  font-family: 'Montserrat', sans-serif; /*--Palatino Linotype --*/
+  font-family: 'Montserrat', sans-serif; 
 }
 
-.header-text {
+/*--Palatino Linotype --*/
+
+/* .header-text {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -101,12 +103,12 @@ p{
 	color: #ffffff;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 4vw;
-}
+} */
 
 /*-------------WHITE SECTION - TOOLS AND WATERING-------------------*/
 
 .white-block {
-    padding: 5vw;
+    padding: 4.5vw;
 	text-align: left;
 	color: #000000;
 }
@@ -129,7 +131,7 @@ p{
 .dark-block {
     /* padding: 10vw; */
     color: #ffffff;
-	padding: 5vw;
+	padding: 3vw;
     text-align: left;
     background-color: #012416;
     /* overflow: hidden; */
