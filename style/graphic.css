@@ -7,7 +7,7 @@ body{
     overflow-x: hidden;
 }
 p{
-  font-size: 24px;
+  font-size: 20px;
   text-align: left;
  }
 /*------------------------HEADER BAR--------------------------------*/
@@ -18,28 +18,19 @@ p{
 	padding: 50px;
 }
 
-/*-------------------LOGO AND WEBSITE TITLE-------------------------*/
-
+/*-------------------MY DESIGN PORTFOLIO-------------------------*/
 #logo {
 	position: absolute;
-	top: 2px;
-	left: 8vw;
+	top: 20px;
+	left: 3vw;
 	font-family: 'Nunito Sans', sans-serif; /*--roboto font --*/
 	text-transform: uppercase;
 	color: #808080;
 }
 
 #logo h1 {
-    font-size: 25px;
+    font-size: 23px;
 }
-
-/* .logo-img img{
-	position: absolute;
-	top: 22px;
-    left: 30px;
-    width: 40px;
-} */
-
 /*-----------------------NAVIGATIONAL BAR---------------------------*/
 
 .navbar-links {
@@ -71,41 +62,24 @@ p{
 	
 .navbar-links li:hover a {
     text-decoration: underline;
-	color: #4C7149;
+	color: #808080;
 }
 
-/*----------------PLANT INTRODUCTION HEADER IMAGE-------------------*/
-
-/* .header-image {
-	position: relative;
-	text-align: center;
-  } */
-
-/*-------------------TEXT ONTOP OF HEADER IMAGE---------------------*/
+/*-------------------TITLES---------------------*/
 .header-index{
-  font-size: 4vw;
+  font-size: 3vw;
   font-family: 'Montserrat', sans-serif;
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
 .header-indexD{
-  font-size: 4vw;
-  font-family: 'Montserrat', sans-serif; 
-}
+    font-size: 3vw;
+    font-family: 'Montserrat', sans-serif; /*--Palatino Linotype --*/
+  }
 
 /*--Palatino Linotype --*/
 
-/* .header-text {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	color: #ffffff;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 4vw;
-} */
-
-/*-------------WHITE SECTION - TOOLS AND WATERING-------------------*/
+/*-------------WHITE SECTION-------------------*/
 
 .white-block {
     padding: 6vw;
@@ -126,14 +100,14 @@ p{
     padding-left: 2vw;
 }
 
-/*---------DARK SECTION - GENERAL TIPS AND BEGINNER PLANTS----------*/
+/*---------DARK SECTION----------*/
 
 .dark-block {
     padding: 10vw;
     color: #ffffff;
 	padding: 3vw;
     text-align: left;
-    background-color: #012416;
+    background-color: #262626;
     /* overflow: hidden; */
 }
 
