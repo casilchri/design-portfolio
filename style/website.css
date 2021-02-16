@@ -146,16 +146,13 @@ p{
 
 } 
 
-
 @media screen and (max-width: 1000px) {
-p{
-  font-size: 15px;
-}
-
-.header-index{
- 
-    margin-left: 10px;
-}
+    p{
+        font-size: 15px;
+    }
+    .header-index{
+        margin-left: 10px;
+    }
 }
 /*--------------------THE HAMBURGER DISPLAY-------------------------*/
 
