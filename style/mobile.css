@@ -19,6 +19,7 @@ p{
 }
 
 /*-------------------MY DESIGN PORTFOLIO-------------------------*/
+
 #logo {
 	position: absolute;
 	top: 20px;
@@ -31,6 +32,7 @@ p{
 #logo h1 {
     font-size: 23px;
 }
+
 /*-----------------------NAVIGATIONAL BAR---------------------------*/
 
 .navbar-links {
@@ -73,14 +75,14 @@ p{
 }
 
 .header-indexD{
-  font-size: 3vw;
-  font-family: 'Montserrat', sans-serif; /*--Palatino Linotype --*/
-}
+    font-size: 3vw;
+    font-family: 'Montserrat', sans-serif; /*--Palatino Linotype --*/
+  }
 
 /*-------------WHITE SECTION-------------------*/
 
 .white-block {
-    padding: 5vw;
+    padding: 4vw;
 	text-align: left;
 	color: #000000;
 }
@@ -144,16 +146,13 @@ p{
 
 } 
 
-
 @media screen and (max-width: 1000px) {
-p{
-  font-size: 15px;
-}
-
-.header-index{
- 
-    margin-left: 10px;
-}
+    p{
+        font-size: 15px;
+    }
+    .header-index{
+        margin-left: 10px;
+    }
 }
 /*--------------------THE HAMBURGER DISPLAY-------------------------*/
 
