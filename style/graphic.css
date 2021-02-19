@@ -24,7 +24,8 @@ p{
 	position: absolute;
 	top: 20px;
 	left: 3vw;
-	font-family: 'Nunito Sans', sans-serif; /*--roboto font --*/
+    font-family: 'Questrial', sans-serif;
+    font-weight: bold;
 	text-transform: uppercase;
 	color: #808080;
 }
@@ -56,7 +57,7 @@ p{
 	letter-spacing: 2px;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Questrial', sans-serif;
 	font-size: 18px;
 	color:#000000;
 	font-weight: 700;
@@ -70,13 +71,15 @@ p{
 /*-------------------TITLES---------------------*/
 .header-index{
   font-size: 3vw;
-  font-family: 'Montserrat', sans-serif;
-    margin-left: 30px;
+  font-family: 'Questrial', sans-serif;
+  font-weight: bold;
+  margin-left: 30px;
 }
 
 .header-indexD{
     font-size: 3vw;
-    font-family: 'Montserrat', sans-serif; /*--Palatino Linotype --*/
+    font-family: 'Questrial', sans-serif;
+    font-weight: bold;
   }
 
 /*-------------WHITE SECTION-------------------*/
@@ -89,14 +92,13 @@ p{
 
 .white-block h1 {
     padding-top: 10vw;
-    font-family: 'Montserrat', sans-serif;
     font-size: 28px;
     text-align: left;
     padding-left: 2vw;
 }
 
 .white-block p{
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Questrial', sans-serif;
     padding-left: 2vw;
 }
 
@@ -113,14 +115,13 @@ p{
 
 .dark-block h1 {
     padding-top: 10vw;
-    font-family: 'Montserrat', sans-serif;
     font-size: 28px;
     text-align: left;
 
 }
 
 .dark-block p{
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Questrial', sans-serif;
     padding-right: 2vw;
 }
 

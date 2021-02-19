@@ -24,7 +24,8 @@ p{
 	position: absolute;
 	top: 20px;
 	left: 3vw;
-	font-family: 'Nunito Sans', sans-serif; /*--roboto font --*/
+    font-family: 'Questrial', sans-serif;
+    font-weight: bold;
 	text-transform: uppercase;
 	color: #808080;
 }
@@ -56,7 +57,7 @@ p{
 	letter-spacing: 2px;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Questrial', sans-serif;
 	font-size: 18px;
 	color:#000000;
 	font-weight: 700;
@@ -69,60 +70,61 @@ p{
 
 /*-------------------TITLES---------------------*/
 .header-index{
-  font-size: 3vw;
-  font-family: 'Montserrat', sans-serif;
-    margin-left: 30px;
-}
-
-.header-indexD{
     font-size: 3vw;
-    font-family: 'Montserrat', sans-serif; /*--Palatino Linotype --*/
+    font-family: 'Questrial', sans-serif;
+    font-weight: bold;
+    margin-left: 30px;
   }
-
-/*-------------WHITE SECTION-------------------*/
-
-.white-block {
-    padding: 4vw;
-	text-align: left;
-	color: #000000;
-}
-
-.white-block h1 {
-    padding-top: 10vw;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 28px;
-    text-align: left;
-    padding-left: 2vw;
-}
-
-.white-block p{
-    font-family: 'Nunito Sans', sans-serif;
-    padding-left: 2vw;
-}
-
-/*---------DARK SECTION----------*/
-
-.dark-block {
-    /* padding: 10vw; */
-    color: #ffffff;
-	padding: 3vw;
-    text-align: left;
-    background-color: #262626;
-    /* overflow: hidden; */
-}
-
-.dark-block h1 {
-    padding-top: 10vw;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 28px;
-    text-align: left;
-
-}
-
-.dark-block p{
-    font-family: 'Nunito Sans', sans-serif;
-    padding-right: 2vw;
-}
+  
+  .header-indexD{
+      font-size: 3vw;
+      font-family: 'Questrial', sans-serif;
+      font-weight: bold;
+    }
+  
+  /*-------------WHITE SECTION-------------------*/
+  
+  .white-block {
+      padding: 4vw;
+      text-align: left;
+      color: #000000;
+  }
+  
+  .white-block h1 {
+      padding-top: 10vw;
+      font-size: 28px;
+      text-align: left;
+      padding-left: 2vw;
+  }
+  
+  .white-block p{
+      font-family: 'Questrial', sans-serif;
+      padding-left: 2vw;
+  }
+  
+  /*---------DARK SECTION----------*/
+  
+  .dark-block {
+      /* padding: 10vw; */
+      color: #ffffff;
+      padding: 3vw;
+      text-align: left;
+      background-color: #262626;
+      /* overflow: hidden; */
+  }
+  
+  .dark-block h1 {
+      padding-top: 10vw;
+      font-size: 28px;
+      text-align: left;
+  
+  }
+  
+  .dark-block p{
+      font-family: 'Questrial', sans-serif;
+      padding-right: 2vw;
+  }
+  
 
 
 @media only screen and (min-width: 1000px){
