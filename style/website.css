@@ -104,6 +104,11 @@ p{
     padding-left: 2vw;
 }
 
+.white-block img {
+    width: 460px;
+    height: 410px;
+}
+
 /*---------DARK SECTION----------*/
 
 .dark-block {

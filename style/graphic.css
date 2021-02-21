@@ -102,6 +102,11 @@ p{
     padding-left: 2vw;
 }
 
+.white-block img {
+    width: 460px;
+    height: 410px;
+}
+
 /*---------DARK SECTION----------*/
 
 .dark-block {
@@ -125,9 +130,13 @@ p{
     padding-right: 2vw;
 }
 
+.dark-block object {
+    width: 480px;
+    height: 55vh;
+}
+
 
 @media only screen and (min-width: 1000px){
-
     #layout {
         display: grid;
         grid-template-areas: 
