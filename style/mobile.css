@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0vw;
     margin-top: 1vh;
     display: grid;
@@ -6,20 +6,20 @@ body{
     height: 94vh;
     overflow-x: hidden;
 }
-p{
+
+p {
   font-size: 20px;
   text-align: left;
- }
-/*------------------------HEADER BAR--------------------------------*/
+}
 
+/*----------------HEADER BAR--------------------*/
 #header {
 	background: #ffffff;
 	position: relative;
 	padding: 50px;
 }
 
-/*-------------------MY DESIGN PORTFOLIO-------------------------*/
-
+/*-------------MY DESIGN PORTFOLIO--------------*/
 #logo {
 	position: absolute;
 	top: 20px;
@@ -34,8 +34,7 @@ p{
     font-size: 23px;
 }
 
-/*-----------------------NAVIGATIONAL BAR---------------------------*/
-
+/*--------------NAVIGATIONAL BAR----------------*/
 .navbar-links {
 	position: absolute;
 	top: 25px;
@@ -69,77 +68,70 @@ p{
 }
 
 /*-------------------TITLES---------------------*/
-.header-index{
+.header-index {
     font-size: 3.5vw;
     font-family: 'Questrial', sans-serif;
     font-weight: bold;
     margin-left: 30px;
-  }
+}
   
-  .header-indexD{
+.header-indexD {
     font-size: 3.5vw;
     font-family: 'Questrial', sans-serif;
     font-weight: bold;
     margin-left: 1px;
-  }
-  
-  
-  /*-------------WHITE SECTION-------------------*/
-  
-  .white-block {
-      padding: 4vw;
-      text-align: left;
-      color: #000000;
-  }
-  
-  .white-block h1 {
-      padding-top: 10vw;
-      font-size: 28px;
-      text-align: left;
-      padding-left: 2vw;
-  }
-  
-  .white-block p{
-      font-family: 'Questrial', sans-serif;
-      padding-left: 2vw;
-  }
+}
 
-  .white-block iframe {
+/*---------------WHITE SECTION------------------*/
+.white-block {
+    padding: 4vw;
+    text-align: left;
+    color: #000000;
+}
+
+.white-block h1 {
+    padding-top: 10vw;
+    font-size: 28px;
+    text-align: left;
+    padding-left: 2vw;
+}
+  
+.white-block p {
+    font-family: 'Questrial', sans-serif;
+    padding-left: 2vw;
+}
+
+.white-block iframe {
     border: 1px;
     width: 470px;
     height: 140vh;
-  }
+}
   
-  /*---------DARK SECTION----------*/
+/*----------------DARK SECTION------------------*/
+.dark-block {
+    color: #ffffff;
+    padding: 3vw;
+    text-align: left;
+    background-color: #262626;
+}
   
-  .dark-block {
-      /* padding: 10vw; */
-      color: #ffffff;
-      padding: 3vw;
-      text-align: left;
-      background-color: #262626;
-      /* overflow: hidden; */
-  }
+.dark-block h1 {
+    padding-top: 10vw;
+    font-size: 28px;
+    text-align: left;
+}
   
-  .dark-block h1 {
-      padding-top: 10vw;
-      font-size: 28px;
-      text-align: left;
-  }
-  
-  .dark-block p{
-      font-family: 'Questrial', sans-serif;
-      padding-right: 2vw;
-  }
+.dark-block p {
+    font-family: 'Questrial', sans-serif;
+    padding-right: 2vw;
+}
 
-  .dark-block object {
-      width: 480px;
-      height: 50vh;
-  }
-  
+.dark-block object {
+    width: 480px;
+    height: 50vh;
+}
 
-
-@media only screen and (min-width: 1000px){
+@media only screen and (min-width: 1000px) {
 
     #layout {
         display: grid;
@@ -147,9 +139,10 @@ p{
         'A A B B'
         ;
     }
-
 } 
-@media only screen and (max-width: 600px){
+
+@media only screen and (max-width: 600px) {
+
     #layout {
         display: grid;
         grid-template-areas:
@@ -157,19 +150,20 @@ p{
         'B'
         ;
     }
-
 } 
 
 @media screen and (max-width: 1000px) {
+    
     p{
         font-size: 15px;
     }
+    
     .header-index{
         margin-left: 10px;
     }
 }
-/*--------------------THE HAMBURGER DISPLAY-------------------------*/
 
+/*-----------THE HAMBURGER DISPLAY--------------*/
 .toggle-button {
     position: absolute;
     z-index: 101;
