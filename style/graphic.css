@@ -59,7 +59,7 @@ p {
     font-family: 'Questrial', sans-serif;
 	font-size: 18px;
 	color:#000000;
-	font-weight: 700;
+    font-weight: bolder;
 }
 	
 .navbar-links li:hover a {
@@ -125,9 +125,14 @@ p {
     padding-right: 2vw;
 }
 
-.dark-block object {
+/* .dark-block object {
     width: 480px;
     height: 55vh;
+} */
+
+.dark-block object {
+    width: 700px;
+    height: 420px;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -149,6 +154,11 @@ p {
         'B'
         ;
     }
+
+    .dark-block object {
+        width: 480px;
+        height: 55vh;
+    }
 } 
 
 @media screen and (max-width: 1000px) {
@@ -158,6 +168,11 @@ p {
 
     .header-index {
         margin-left: 10px;
+        font-size: 30px;
+    }
+
+    .header-indexD {
+        font-size: 30px;
     }
 }
 
@@ -184,7 +199,7 @@ p {
     
 }
 
-@media (max-width: 750px) {
+@media (max-width: 800px) {
     .toggle-button {
         display: flex;
     }
