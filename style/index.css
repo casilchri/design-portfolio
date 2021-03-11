@@ -27,11 +27,15 @@ p {
     font-family: 'Questrial', sans-serif;
     font-weight: bold;
 	text-transform: uppercase;
-	color: #808080;
 }
 
 #logo h1 {
     font-size: 23px;
+}
+
+#logo a {
+    color: #808080;
+    text-decoration: none;
 }
 
 /*--------------NAVIGATIONAL BAR----------------*/
