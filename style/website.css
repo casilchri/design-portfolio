@@ -112,6 +112,10 @@ p {
     height: 460px;
 }
 
+.white-block a {
+    color: black;
+}
+
 /*----------------DARK SECTION------------------*/
 .dark-block {
     color: #ffffff;
