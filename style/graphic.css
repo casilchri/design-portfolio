@@ -143,6 +143,10 @@ p {
     height: 420px;
 }
 
+.dark-block a {
+    color: white;
+}
+
 @media only screen and (min-width: 1000px) {
 
     #layout {
