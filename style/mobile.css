@@ -12,8 +12,6 @@ p {
   text-align: left;
 }
 
-/*----------------HEADER BAR--------------------*/
-
 /*-------------MY DESIGN PORTFOLIO--------------*/
 #logo {
 	position: absolute;
@@ -32,8 +30,6 @@ p {
     color: #808080;
     text-decoration: none;
 }
-
-/*--------------NAVIGATIONAL BAR----------------*/
 
 /*-------------------TITLES---------------------*/
 .header-index {
@@ -147,6 +143,23 @@ p {
     .header-indexD {
         font-size: 30px;
     }
+    
+    .footer {
+      text-align: center;
+    }
+}
+
+/*------------------FOOTER----------------------*/
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #808080;
+  color: white;
+  font-family: 'Questrial', sans-serif;
+  padding-left: 40vw;
 }
 
 /*-----------THE HAMBURGER DISPLAY--------------*/
